@@ -1,0 +1,168 @@
+== Info: Host app.workato.com:443 was resolved.
+== Info: IPv6: (none)
+== Info: IPv4: 52.5.79.187, 52.22.80.229, 54.85.30.49
+== Info:   Trying 52.5.79.187:443...
+== Info: Connected to app.workato.com (52.5.79.187) port 443
+== Info: ALPN: curl offers h2,http/1.1
+== Info: (304) (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 320 bytes (0x140)
+0000: ...<..& 9R\..o%vw.q...........O.(0._A. S..h....P.9..ol...b.....@
+0040: v....j..b.............0.,.(.$.......k.9...........=.5...../.+.'.
+0080: #.......g.3...E...<./...A.......................+............3.&
+00c0: .$... G.U...2B...y(....%.0.q...|.g...W.........app.workato.com..
+0100: .....................................................h2.http/1.1
+== Info:  CAfile: /etc/ssl/cert.pem
+== Info:  CApath: none
+== Info: (304) (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 91 bytes (0x5b)
+0000: ...W.....m..Gn...kI..t.......\?&.57..p .........lX[.....Cn.....-
+0040: ....~J<./..................
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 3807 bytes (0xedf)
+0000: ..........0...0.............B..4.5X...}.D0...*.H........0<1.0...
+0040: U....US1.0...U....Amazon1.0...U....Amazon RSA 2048 M020...240913
+0080: 000000Z..251011235959Z0.1.0...U....*.workato.com0.."0...*.H.....
+00c0: ........0...............2.4...H...{ .W........B......wL..Ch+..(.
+0100: ...#...Z.0..(.O.......[.\.q@..{G..b..cDG.........P...v)C........
+0140: t..e.K....54.l....>..)..sE.H...._..m.s/&..S587.D5...@...]S..+...
+0180: .\...=r.pY...Z...A..5]..6....yx.r.I..o.r...0...Z....2J.].o..&...
+01c0: ...N2~..._:).U.Z..........0...0...U.#..0....1R.ZP..|tq.....z...0
+0200: ...U........1m.W.B......L\...r0%..U....0...*.workato.com..workat
+0240: o.com0...U. ..0.0...g.....0...U...........0...U.%..0...+........
+0280: .+.......0;..U...40200...,.*http://crl.r2m02.amazontrust.com/r2m
+02c0: 02.crl0u..+........i0g0-..+.....0..!http://ocsp.r2m02.amazontrus
+0300: t.com06..+.....0..*http://crt.r2m02.amazontrust.com/r2m02.cer0..
+0340: .U.......0.0..~..+.....y......n...j.h.v...N4.SrL.....?z....b...m
+0380: 0.....&:.....0.......G0E. ...v.K.}\e..........0n"U.]....#..!....
+03c0: szW.2h).r.....7..7.<.8....Q...w.}Y...x*{.ag|^....\..N..../....y.
+0400: .....0.......H0F.!..h..N...#...~,. 7Oj.&....tj....Z.!..@.R5mS..\
+0440: ...........F.A@!.%.qg..u....j.q.e...S...|"..\.....~T..L.......0.
+0480: ......F0D. e#/...x.>.r...`....x........FV... ..........3....~t.A
+04c0: k...5...*....0...*.H.....................@..%.acS..QRyG..l...~^.
+0500: ....N.5....%c...........A0>p..T...........}..A~....V}......2.B..
+0540: ......._].........V9.]..!.........m....45$..`.....h........6}...
+0580: ..{.z4'^62LMh.....HC. .;u. ....4.BoS....[.[..7..~......6.N..V)+.
+05c0: Du.uH..w..........u ..P.\/.-V5.....b0..^0..F........s.JK..N..;..
+0600: ..-:..0...*.H........091.0...U....US1.0...U....Amazon1.0...U....
+0640: Amazon Root CA 10...220823222530Z..300823222530Z0<1.0...U....US1
+0680: .0...U....Amazon1.0...U....Amazon RSA 2048 M020.."0...*.H.......
+06c0: ......0.........C..Z.y.)..o...C..X..^7J...E.s...XYo...Fr.yP-....
+0700: ...........2,.t..p<N..Wz.4.U{.e,.....c.,h.....W.;..'ZSL_9Z..E...
+0740: .....7.l.R..e*.......NZ...b...).y.....gQ8Nx)j..(_'!..\..._R.Xv.#
+0780: Sd.Y..".&...x>+.G...y8..we....;....z.Y..Ec...[..I.....%:..#hO.Ts
+07c0: 8{.2.j,.....~us........Z0..V0...U.......0.......0...U...........
+0800: 0...U.%..0...+.........+.......0...U.......1R.ZP..|tq.....z...0.
+0840: ..U.#..0.......4.......Y....N..0{..+........o0m0/..+.....0..#htt
+0880: p://ocsp.rootca1.amazontrust.com0:..+.....0...http://crt.rootca1
+08c0: .amazontrust.com/rootca1.cer0?..U...80604.2.0..http://crl.rootca
+0900: 1.amazontrust.com/rootca1.crl0...U. ..0.0...g.....0...*.H.......
+0940: ......-N...@3~/..n..?.K...........][Q..y..Q.....j.7hf..)...[....
+0980: E...[.u.....v,...'^g..}...@N>(..w..U~.a.4.6....V.I4.pL>.,..5..:.
+09c0: F(.Nj..,.v$*.b.=....&..f........S.Ho.... e".<......t....m[P9.Q[>
+0a00: j..C.R6....}.^..4"......U .l.H..........j4.......5.M.9~..ZY.gZwo
+0a40: J........0...0..z..........J*'.....+.......0...*.H........0..1.0
+0a80: ...U....US1.0...U....Arizona1.0...U....Scottsdale1%0#..U....Star
+0ac0: field Technologies, Inc.1;09..U...2Starfield Services Root Certi
+0b00: ficate Authority - G20...150525120000Z..371231010000Z091.0...U..
+0b40: ..US1.0...U....Amazon1.0...U....Amazon Root CA 10.."0...*.H.....
+0b80: ........0.........x.q.x..q.G.Pt}n...v..h.X!`.t../..-...CzN...6..
+0bc0: ...H...6L...#.>.7....Ih....v8.a....6..JV.E......t...59/.. P.lz..
+0c00: .....G..P8....9X.....Hg0...x^o..Q.0.f.Ef.T.....H....0-}-tp5..$..
+0c40: .Yn.s...2F(.C........$.-K.q\^i.....8..P8o..-b....T.w.g....#.?@ .
+0c80:  ...L>;$&...l............10..-0...U.......0....0...U...........0
+0cc0: ...U..........4.......Y....N..0...U.#..0...._.....0+8...mJ.....0
+0d00: x..+........l0j0...+.....0.."http://ocsp.rootg2.amazontrust.com0
+0d40: 8..+.....0..,http://crt.rootg2.amazontrust.com/rootg2.cer0=..U..
+0d80: .60402.0...,http://crl.rootg2.amazontrust.com/rootg2.crl0...U. .
+0dc0: .0.0...U. .0...*.H.............b7B\...>.,...lE...z..X....>..%<.o
+0e00: P..5j..4.2!.HD...=..sm.....l.(...Gy..~0[.;.`.w.....|^....{"....~
+0e40: .F....&W.09b.........>.ChlW.... ....j]..Jm.X...91_|s...j...'....
+0e80: F.~.r..R>...cw.i..9....EM.Q:.]]7dL~0.U$B.6.]...a.....$...t..{E)P
+0ec0: 9....5%..jG#1/\.....bQ.*...4.!.
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.Ja.2.....a.....!...!..}...td.f.E.wKV..q.Tv.E..1_Bi/.A..
+0040: u.O.^s..h.....R.w|..%>.|....i...t.L.RUE...;....iR.....j....U...V
+0080: .P....t..:)-...t.qBe.O.....!.pB...Y.O..FTf...3..q....@........~;
+00c0: E{.}.a...../U......|..\'...?\.#.M.P.T......N..z..VL..*..(.....~:
+0100: { .l....q....:Q-)....d.a.......e .*@Yj......."X*...4u....  ..5m'
+0140: B.g.5.......#
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA..m.\..1..}.....0.Ed....?K.x......w..9.w..51.R.............
+0040: .-Qn.~
+== Info: TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: ....CO...0... ..
+== Info: TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: ....j..w.K{.N<..
+== Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256 / [blank] / UNDEF
+== Info: ALPN: server did not agree on a protocol. Uses default.
+== Info: Server certificate:
+== Info:  subject: CN=*.workato.com
+== Info:  start date: Sep 13 00:00:00 2024 GMT
+== Info:  expire date: Oct 11 23:59:59 2025 GMT
+== Info:  subjectAltName: host "app.workato.com" matched cert's "*.workato.com"
+== Info:  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M02
+== Info:  SSL certificate verify ok.
+== Info: using HTTP/1.x
+=> Send header, 78 bytes (0x4e)
+0000: GET / HTTP/1.1
+0010: Host: app.workato.com
+0027: User-Agent: curl/8.7.1
+003f: Accept: */*
+004c: 
+== Info: Request completely sent off
+<= Recv header, 20 bytes (0x14)
+0000: HTTP/1.1 302 Found
+<= Recv header, 37 bytes (0x25)
+0000: Date: Mon, 04 Nov 2024 00:00:52 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+<= Recv header, 49 bytes (0x31)
+0000: Location: https://app.workato.com/users/sign_in
+<= Recv header, 25 bytes (0x19)
+0000: Cache-Control: no-cache
+<= Recv header, 323 bytes (0x143)
+0000: Set-Cookie: _workato_app_session_v2=eALJf2%2BNw%2BeUcimGRYNwBbpy
+0040: YGptMIxO%2BQxMxrfmLDFH0AXJUs9h66%2FC1pyDdXp6JEpk0kKpXVgjphdLy3ob
+0080: oXif8CidaezoclwfGFti7hgsZ0xXM6R0f4VlXCY%2B03JDEiOagN6kap8MpLvXXU
+00c0: qgRzjzGSw%2Fdnsf%2B%2FZZafLvY3huNd5wafMt--OQwnu0iA7y0gaRnb--sVBQ
+0100: vEpJkuoWCrzpVyKRhw%3D%3D; path=/; secure; HttpOnly; SameSite=Non
+0140: e
+<= Recv header, 48 bytes (0x30)
+0000: X-Request-Id: 135df1d20f9eeca4af5f2fb3fb67bc4b
+<= Recv header, 21 bytes (0x15)
+0000: X-Runtime: 0.005664
+<= Recv header, 48 bytes (0x30)
+0000: X-Request-Id: 135df1d20f9eeca4af5f2fb3fb67bc4b
+<= Recv header, 52 bytes (0x34)
+0000: X-Correlation-Id: 135df1d20f9eeca4af5f2fb3fb67bc4b
+<= Recv header, 64 bytes (0x40)
+0000: Strict-Transport-Security: max-age=63072000; includeSubDomains
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 109 bytes (0x6d)
+0000: 67
+0004: <html><body>You are being <a href="https://app.workato.com/users
+0044: /sign_in">redirected</a>.</body></html>
+<= Recv data, 5 bytes (0x5)
+0000: 0
+0003: 
+== Info: Connection #0 to host app.workato.com left intact
